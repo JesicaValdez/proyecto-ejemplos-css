@@ -1,0 +1,52 @@
+.h1Titulo{
+    text-shadow: 2px 2px 5px #ff6bba;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parrafo{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h3Titulo2{
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #bfff91;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lista{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*darle diseño a los a class items*/
+.lista .items{
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+    background-color: #b084ff;
+    color: #bfff91;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+}

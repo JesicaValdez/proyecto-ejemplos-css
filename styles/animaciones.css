@@ -1,0 +1,45 @@
+.h1Titulo{
+    text-shadow: 2px 2px 5px #ff6bba;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cajita{
+    margin: 0 25px;
+    border: 2px solid black;
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+@keyframes ejemplo{
+    from{
+        left: 0;
+        background-color: aquamarine;
+    }
+    to{
+        left: 250px;
+        background-color: lawngreen;
+    }
+}
+
+.linear{
+    animation: ejemplo 2s linear infinite alternate;
+}
+
+.ease{
+    animation: ejemplo 2s ease infinite alternate;
+}
+
+.ease-in{
+    animation: ejemplo 2s ease-in infinite alternate;
+}
+
+.ease-out{
+    animation: ejemplo 2s ease-out infinite alternate;
+}
+
+.ease-in-out{
+    animation: ejemplo 2s ease-in-out infinite alternate;
+}

@@ -1,0 +1,124 @@
+.h1Titulo{
+    text-shadow: 2px 2px 5px #ff6bba;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid-container4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #b084ff;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container4 > div{
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: #e7fc91
+}
+
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #b084ff;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div{
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: #e7fc91
+}
+
+.grid-container5{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #b084ff;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container5 > div{
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: #e7fc91
+}
+
+.Left{
+    text-align: left;
+}
+
+.Right{
+    text-align: right;
+}
+
+.Center{
+    text-align: center;
+}
+
+.Justify{
+    text-align: justify;
+}
+
+h5{
+    text-align: center;
+}
+
+h4{
+    margin: 20px 0 10px 0;
+    font-size:  25px;
+}
+
+.overline{
+    text-decoration: overline;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.underline-overline{
+    text-decoration: underline overline;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.serif{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.sans-serif{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace{
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+.fantasy{
+    font-family: fantasy;
+}

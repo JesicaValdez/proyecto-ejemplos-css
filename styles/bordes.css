@@ -1,0 +1,71 @@
+/*
+.color1 {color: #08f7ff;}
+.color2 {color: #99d1fb;}
+.color3 {color: #ffb1f4;}
+.color4 {color: #ffd2bf;}
+.color5 {color: #fffa89;}
+*/
+
+.h1Titulo{
+    text-shadow: 2px 2px 5px #ff6bba;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    gap: 50px;
+    background-color: #b084ff;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container > div{
+    background-color: #bfff91;
+    padding: 20px;
+    text-align: center;
+}
+
+.cajita{
+    width: 100px;
+    height: 100px;
+}
+
+.dotted{
+    border: 5px dotted black;
+}
+
+.dashed{
+    border: 5px dashed black;
+}
+
+.solid{
+    border: 5px solid black;
+}
+
+.double{
+    border: 5px double black;
+}
+
+.groove{
+    border: 5px groove black;
+}
+
+.ridge{
+    border: 5px ridge black;
+}
+
+.inset{
+    border: 5px inset black;
+}
+
+.outset{
+    border: 5px outset black;
+}
+
+.hidden{
+    border: 5px hidden black;
+}
+

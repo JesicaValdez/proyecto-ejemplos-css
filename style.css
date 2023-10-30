@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color:  #b084ff;
+    overflow: auto;
+}
+
+.navbar a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: #ff6bba;
+}
+
+.active{
+    background-color: #ff6bba;
+}
+
+.responsive{
+    display: none;
+}
+
+i{
+    padding: 0 5px;
+}
+
+@media (max-width:600px){
+    .responsive{
+        display: block;
+        float: right;
+        padding: 12px;
+    }
+    a{
+        display: none;
+    }
+}
+
+.introduccion{
+    background-color: #b084ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
